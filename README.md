@@ -44,7 +44,7 @@ Early-stage features (first 10–20 min) used for nowcasting:
 
 ### Training Code Overview
 
-`training/` contains all 6 experiments (3 scenarios × 2 expts each).
+`02_training/` contains all 6 experiments (3 scenarios × 2 expts each).
 
 Main pipeline:
 ```python
