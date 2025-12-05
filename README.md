@@ -1,8 +1,15 @@
 # storm-nowcasting-synthetic
 # Synthetic Storm Cell Nowcasting (Variables + Training Code)
 
-This repository contains only the **core variable definitions** and **training pipeline** used in the synthetic storm nowcasting experiments.  
-No full report or data files are included.
+This repository contains the **complete, reproducible code** for a systematic nowcasting study on synthetic convective storm cells.
+
+Using **only the first 10–20 minutes** of each storm’s observed evolution, four regression models  
+(Gradient Boosting, XGBoost, Random Forest, Ridge) predict:  
+- Total lifetime (hours)  
+- Peak rainfall rate (mm/hr)  
+- Total accumulated rainfall (mm)
+
+The six experiments (3 scenarios × 2 experiments each) systematically increase complexity and clearly demonstrate how predictive skill changes with the balance of **deterministic signal vs. stochastic noise** — from near-perfect **R² ≈ 1.0** in highly controlled cases to degradation under full randomness.
 
 
 **Data Generation Summary**  
