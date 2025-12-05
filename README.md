@@ -4,6 +4,8 @@
 This repository contains only the **core variable definitions** and **training pipeline** used in the synthetic storm nowcasting experiments.  
 No full report or data files are included.
 
+There are three scenarios for synthetic storm data generation, each containing two experiments (six data-generation and training/results notebooks in total)
+
 ### Key Variables (Targets & Main Features)
 
 | Variable           | Description                                    | Unit      |
